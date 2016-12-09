@@ -10,9 +10,12 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var showGifView: XYView!
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        self.showGifView.showGifImageWithLocalName(name: "lufei")
+        
+        
     }
 
     override func didReceiveMemoryWarning() {

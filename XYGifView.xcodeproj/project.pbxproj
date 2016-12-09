@@ -14,6 +14,8 @@
 		144694521DF94ED900EF8806 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 144694501DF94ED900EF8806 /* LaunchScreen.storyboard */; };
 		1446945D1DF94ED900EF8806 /* XYGifViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1446945C1DF94ED900EF8806 /* XYGifViewTests.swift */; };
 		144694681DF94ED900EF8806 /* XYGifViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 144694671DF94ED900EF8806 /* XYGifViewUITests.swift */; };
+		144694771DF95B5600EF8806 /* XYView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 144694761DF95B5600EF8806 /* XYView.swift */; };
+		1446947E1DFB075800EF8806 /* lufei.gif in Resources */ = {isa = PBXBuildFile; fileRef = 1446947D1DFB075800EF8806 /* lufei.gif */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		144694631DF94ED900EF8806 /* XYGifViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XYGifViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		144694671DF94ED900EF8806 /* XYGifViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XYGifViewUITests.swift; sourceTree = "<group>"; };
 		144694691DF94ED900EF8806 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		144694761DF95B5600EF8806 /* XYView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XYView.swift; sourceTree = "<group>"; };
+		1446947D1DFB075800EF8806 /* lufei.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = lufei.gif; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +101,8 @@
 		144694461DF94ED900EF8806 /* XYGifView */ = {
 			isa = PBXGroup;
 			children = (
+				1446947D1DFB075800EF8806 /* lufei.gif */,
+				144694751DF95B2800EF8806 /* XYView */,
 				144694471DF94ED900EF8806 /* AppDelegate.swift */,
 				144694491DF94ED900EF8806 /* ViewController.swift */,
 				1446944B1DF94ED900EF8806 /* Main.storyboard */,
@@ -123,6 +129,14 @@
 				144694691DF94ED900EF8806 /* Info.plist */,
 			);
 			path = XYGifViewUITests;
+			sourceTree = "<group>";
+		};
+		144694751DF95B2800EF8806 /* XYView */ = {
+			isa = PBXGroup;
+			children = (
+				144694761DF95B5600EF8806 /* XYView.swift */,
+			);
+			name = XYView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -237,6 +251,7 @@
 			files = (
 				144694521DF94ED900EF8806 /* LaunchScreen.storyboard in Resources */,
 				1446944F1DF94ED900EF8806 /* Assets.xcassets in Resources */,
+				1446947E1DFB075800EF8806 /* lufei.gif in Resources */,
 				1446944D1DF94ED900EF8806 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -264,6 +279,7 @@
 			files = (
 				1446944A1DF94ED900EF8806 /* ViewController.swift in Sources */,
 				144694481DF94ED900EF8806 /* AppDelegate.swift in Sources */,
+				144694771DF95B5600EF8806 /* XYView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -512,6 +528,7 @@
 				1446946E1DF94ED900EF8806 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1446946F1DF94ED900EF8806 /* Build configuration list for PBXNativeTarget "XYGifViewTests" */ = {
 			isa = XCConfigurationList;
@@ -520,6 +537,7 @@
 				144694711DF94ED900EF8806 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		144694721DF94ED900EF8806 /* Build configuration list for PBXNativeTarget "XYGifViewUITests" */ = {
 			isa = XCConfigurationList;
@@ -528,6 +546,7 @@
 				144694741DF94ED900EF8806 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
